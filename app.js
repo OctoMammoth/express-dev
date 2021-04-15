@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
     res.send('This page in development')
 })
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, "localhost", () => {
     console.log('backend running on http://localhost:' + PORT)
 })
